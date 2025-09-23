@@ -35,8 +35,8 @@ class Instrutor(Participante):
         return f"\n{self.get_nome()}, - Participou como palestrante na área de: {self.__especialidade}."
 
 def main():
+    participantes = []
     while True:
-        participantes = []
         print('\n===Menu===\n')
         print("1. Cadastrar participante.")
         print("2. Listar participantes.")
